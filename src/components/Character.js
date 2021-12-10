@@ -9,7 +9,7 @@ function Character({name,born,films,eyeColor,Height,starShips}) {
 
     if(hamburgerState){
         return(
-            <Expanded bgColor='black' height="50vh">
+            <Expanded key={name} bgColor='black' height="50vh">
                 <div className="Expanded-Container">
                     <div className="Card-Header">
                         <span className='material-icons' id='hamburger' onClick={() => setHamburgerState(!hamburgerState)}>close</span>
