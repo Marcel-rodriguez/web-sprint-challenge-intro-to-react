@@ -1,7 +1,6 @@
 import React, { useState} from 'react'
 import Cards, {Expanded, PTag} from '../Styles/Cards'
 import 'material-icons/iconfont/material-icons.css'
-import styled from 'styled-components'
 
 function Character({name,born,films,eyeColor,Height,starShips}) {
     const [hamburgerState, setHamburgerState] = useState(false)
