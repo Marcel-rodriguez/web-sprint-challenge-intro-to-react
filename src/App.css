@@ -19,6 +19,28 @@
     cursor: pointer;
 }
 
-Cards h2 {
-    color: red;
+.Expanded-Container {
+    border: 2px solid grey;
+    width: 100%;
+}
+
+.Card-Header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Films-Div {
+    margin-left: 5vh;
+}
+
+.StarShips-Div {
+    margin-left: 5vh;
+}
+
+.character-info {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
 }

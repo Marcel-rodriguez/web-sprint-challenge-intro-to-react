@@ -27,4 +27,16 @@ border: 2px solid crimson;
  background: ${props => props.bgColor}
 `
 
+export const PTag = styled.p`
+border: 1px solid #4f4f4f;
+border-radius: 5px;
+height: 5vh;
+width: ${props => props.tagWidth};
+padding: 5px;
+display: flex;
+align-items: center;
+margin-left: 10px;
+background: rgba(100, 50, 100, 0.75);
+`
+
 export default Cards
