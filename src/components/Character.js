@@ -28,7 +28,7 @@ function Character({name,born,films,eyeColor,Height,starShips}) {
                         <div className="Films-Div">
                             <h3>Films appeared in</h3>
                             {films.map(film => {
-                                return <PTag tagWidth='20vh' >Film: {film}</PTag>
+                                return <PTag tagWidth='25vh' >Film: {film}</PTag>
                             })}
                         </div>
                     </div>
@@ -42,7 +42,6 @@ function Character({name,born,films,eyeColor,Height,starShips}) {
         <Cards bgColor='black' height='fit-content'>
             <h2>Name: {name} </h2>
             <span className='material-icons' id='hamburger' onClick={() => setHamburgerState(!hamburgerState)}>menu</span>
-            
         </Cards>
     )
 }
