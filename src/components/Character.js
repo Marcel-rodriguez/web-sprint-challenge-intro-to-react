@@ -13,7 +13,7 @@ function Character({name,born,films,eyeColor,Height,starShips}) {
                 <div className="Expanded-Container">
                     <div className="Card-Header">
                         <span className='material-icons' id='hamburger' onClick={() => setHamburgerState(!hamburgerState)}>close</span>
-                        <h2>Name: {name} </h2>
+                        <h2>Name : {name} </h2>
                     </div>
                     <div className='character-info'>
                         <div className='Character-Stats'>
@@ -40,7 +40,7 @@ function Character({name,born,films,eyeColor,Height,starShips}) {
 
     return (
         <Cards bgColor='black' height='fit-content'>
-            <h2>Name: {name} </h2>
+            <h2>Name : {name} </h2>
             <span className='material-icons' id='hamburger' onClick={() => setHamburgerState(!hamburgerState)}>menu</span>
         </Cards>
     )

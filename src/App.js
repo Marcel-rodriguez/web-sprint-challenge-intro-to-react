@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">StarWars Characters</h1>
+      <h1 className="Header">React Wars Revenge of the :nth()</h1>
       <StarwarsData />
     </div>
   );

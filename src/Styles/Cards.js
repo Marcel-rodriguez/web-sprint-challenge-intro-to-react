@@ -2,7 +2,7 @@ import styled from "styled-components";
 
  const Cards = styled.div`
  border: 2px solid crimson;
- width: 50vh;
+ width: 70vh;
  min-height: ${props => props.height};
  padding: 3px;
  display: flex;
@@ -15,7 +15,7 @@ import styled from "styled-components";
 
 export const Expanded = styled.div`
 border: 2px solid crimson;
- width: 50vh;
+ width: 70vh;
  min-height: 20vh;
  padding: 3px;
  display: flex;
